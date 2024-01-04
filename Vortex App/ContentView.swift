@@ -67,7 +67,7 @@ struct ContentView: View {
                             Text(chassisType)
                         }
                     }
-                    .pickerStyle(.menu)
+                    .pickerStyle(.navigationLink)
                     
                     Picker("Wheel", selection: $wheelSelection) {
                         ForEach(wheelTypes, id: \.self){wheelType in
