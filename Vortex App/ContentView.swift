@@ -52,7 +52,7 @@ struct ContentView: View {
                             Image(imageName)
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 50)
+                                .frame(width: 51)
                         }
                         .padding()
 
